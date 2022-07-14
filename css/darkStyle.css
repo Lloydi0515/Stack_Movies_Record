@@ -1,0 +1,53 @@
+/* dark table styles */
+/*Add the necessary styling to make it similar to the given table*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+table.dark {
+	border: 1px solid #1a1a1a;
+	border-collapse: collapse;
+}
+
+table.dark th {
+	border-bottom:1px solid #000;
+	background-color: #1C1C1C;
+	color: #C2CFC8;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+table.dark td {
+	border-right:1px solid #1a1a1a;
+	font-size: 16px;
+	color: #75726A;
+}
+
+table.dark h4 {
+	font-weight: normal;
+	font-size: 20px;
+	padding-right: 100px;
+	color: #E1DFDA;
+	margin: 0;
+}
+
+table.dark tbody tr,td {
+	background: linear-gradient(to bottom, #2F2F2F, #252525);
+	margin: auto;
+    padding: 25px 10px;
+}
+
+.year {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.film {
+	padding-left: 10px;
+	letter-spacing: 2px;
+}
+.date {
+	text-align: left;
+}
